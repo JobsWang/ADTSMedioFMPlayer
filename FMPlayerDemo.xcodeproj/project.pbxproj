@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB04BB81B79A7A2001384AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB04BB71B79A7A2001384AF /* main.m */; };
+		BBB04BBB1B79A7A2001384AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB04BBA1B79A7A2001384AF /* AppDelegate.m */; };
+		BBB04BBE1B79A7A2001384AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB04BBD1B79A7A2001384AF /* ViewController.m */; };
+		BBB04BC11B79A7A2001384AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB04BBF1B79A7A2001384AF /* Main.storyboard */; };
+		BBB04BC31B79A7A2001384AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB04BC21B79A7A2001384AF /* Images.xcassets */; };
+		BBB04BC61B79A7A2001384AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB04BC41B79A7A2001384AF /* LaunchScreen.xib */; };
+		BBB04BD21B79A7A2001384AF /* FMPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB04BD11B79A7A2001384AF /* FMPlayerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB04BCC1B79A7A2001384AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB04BAA1B79A7A2001384AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB04BB11B79A7A2001384AF;
+			remoteInfo = FMPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB04BB21B79A7A2001384AF /* FMPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB04BB61B79A7A2001384AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB04BB71B79A7A2001384AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBB04BB91B79A7A2001384AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBB04BBA1B79A7A2001384AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBB04BBC1B79A7A2001384AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBB04BBD1B79A7A2001384AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBB04BC01B79A7A2001384AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBB04BC21B79A7A2001384AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBB04BC51B79A7A2001384AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBB04BCB1B79A7A2001384AF /* FMPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB04BD01B79A7A2001384AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB04BD11B79A7A2001384AF /* FMPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPlayerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB04BAF1B79A7A2001384AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB04BC81B79A7A2001384AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB04BA91B79A7A2001384AF = {
+			isa = PBXGroup;
+			children = (
+				BBB04BB41B79A7A2001384AF /* FMPlayerDemo */,
+				BBB04BCE1B79A7A2001384AF /* FMPlayerDemoTests */,
+				BBB04BB31B79A7A2001384AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB04BB31B79A7A2001384AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB04BB21B79A7A2001384AF /* FMPlayerDemo.app */,
+				BBB04BCB1B79A7A2001384AF /* FMPlayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB04BB41B79A7A2001384AF /* FMPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBB04BB91B79A7A2001384AF /* AppDelegate.h */,
+				BBB04BBA1B79A7A2001384AF /* AppDelegate.m */,
+				BBB04BBC1B79A7A2001384AF /* ViewController.h */,
+				BBB04BBD1B79A7A2001384AF /* ViewController.m */,
+				BBB04BBF1B79A7A2001384AF /* Main.storyboard */,
+				BBB04BC21B79A7A2001384AF /* Images.xcassets */,
+				BBB04BC41B79A7A2001384AF /* LaunchScreen.xib */,
+				BBB04BB51B79A7A2001384AF /* Supporting Files */,
+			);
+			path = FMPlayerDemo;
+			sourceTree = "<group>";
+		};
+		BBB04BB51B79A7A2001384AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB04BB61B79A7A2001384AF /* Info.plist */,
+				BBB04BB71B79A7A2001384AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB04BCE1B79A7A2001384AF /* FMPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB04BD11B79A7A2001384AF /* FMPlayerDemoTests.m */,
+				BBB04BCF1B79A7A2001384AF /* Supporting Files */,
+			);
+			path = FMPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		BBB04BCF1B79A7A2001384AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB04BD01B79A7A2001384AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB04BB11B79A7A2001384AF /* FMPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB04BD51B79A7A2001384AF /* Build configuration list for PBXNativeTarget "FMPlayerDemo" */;
+			buildPhases = (
+				BBB04BAE1B79A7A2001384AF /* Sources */,
+				BBB04BAF1B79A7A2001384AF /* Frameworks */,
+				BBB04BB01B79A7A2001384AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMPlayerDemo;
+			productName = FMPlayerDemo;
+			productReference = BBB04BB21B79A7A2001384AF /* FMPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB04BCA1B79A7A2001384AF /* FMPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB04BD81B79A7A2001384AF /* Build configuration list for PBXNativeTarget "FMPlayerDemoTests" */;
+			buildPhases = (
+				BBB04BC71B79A7A2001384AF /* Sources */,
+				BBB04BC81B79A7A2001384AF /* Frameworks */,
+				BBB04BC91B79A7A2001384AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB04BCD1B79A7A2001384AF /* PBXTargetDependency */,
+			);
+			name = FMPlayerDemoTests;
+			productName = FMPlayerDemoTests;
+			productReference = BBB04BCB1B79A7A2001384AF /* FMPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB04BAA1B79A7A2001384AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = XIANFENGWANG;
+				TargetAttributes = {
+					BBB04BB11B79A7A2001384AF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BBB04BCA1B79A7A2001384AF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BBB04BB11B79A7A2001384AF;
+					};
+				};
+			};
+			buildConfigurationList = BBB04BAD1B79A7A2001384AF /* Build configuration list for PBXProject "FMPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB04BA91B79A7A2001384AF;
+			productRefGroup = BBB04BB31B79A7A2001384AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB04BB11B79A7A2001384AF /* FMPlayerDemo */,
+				BBB04BCA1B79A7A2001384AF /* FMPlayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB04BB01B79A7A2001384AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB04BC11B79A7A2001384AF /* Main.storyboard in Resources */,
+				BBB04BC61B79A7A2001384AF /* LaunchScreen.xib in Resources */,
+				BBB04BC31B79A7A2001384AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB04BC91B79A7A2001384AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB04BAE1B79A7A2001384AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB04BBE1B79A7A2001384AF /* ViewController.m in Sources */,
+				BBB04BBB1B79A7A2001384AF /* AppDelegate.m in Sources */,
+				BBB04BB81B79A7A2001384AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB04BC71B79A7A2001384AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB04BD21B79A7A2001384AF /* FMPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB04BCD1B79A7A2001384AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB04BB11B79A7A2001384AF /* FMPlayerDemo */;
+			targetProxy = BBB04BCC1B79A7A2001384AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBB04BBF1B79A7A2001384AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB04BC01B79A7A2001384AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBB04BC41B79A7A2001384AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB04BC51B79A7A2001384AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB04BD31B79A7A2001384AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBB04BD41B79A7A2001384AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB04BD61B79A7A2001384AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBB04BD71B79A7A2001384AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBB04BD91B79A7A2001384AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMPlayerDemo.app/FMPlayerDemo";
+			};
+			name = Debug;
+		};
+		BBB04BDA1B79A7A2001384AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMPlayerDemo.app/FMPlayerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB04BAD1B79A7A2001384AF /* Build configuration list for PBXProject "FMPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB04BD31B79A7A2001384AF /* Debug */,
+				BBB04BD41B79A7A2001384AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB04BD51B79A7A2001384AF /* Build configuration list for PBXNativeTarget "FMPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB04BD61B79A7A2001384AF /* Debug */,
+				BBB04BD71B79A7A2001384AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB04BD81B79A7A2001384AF /* Build configuration list for PBXNativeTarget "FMPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB04BD91B79A7A2001384AF /* Debug */,
+				BBB04BDA1B79A7A2001384AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB04BAA1B79A7A2001384AF /* Project object */;
+}
