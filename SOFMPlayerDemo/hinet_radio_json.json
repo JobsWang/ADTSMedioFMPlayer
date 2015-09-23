@@ -1,0 +1,50 @@
+{
+"filename":"hinet_radio_json.json",
+    "url_list_test":{
+    "fmTitle":"常用电台",
+    "data":[
+     
+     {"id": "5000", "title": "中国国际广播电台环球资讯广播", "url": "mms://media.crinewsradio.cn/crinewsradio","image":""},
+     {"id": "5001", "title": "2CCC Coast 96.3 FM", "url": "mms://wma1.viastreaming.net/stream963","image":""},
+     {"id": "5004", "title": "News 89.4", "url": "http://edge.live.mp3.mdn.newmedia.nacamar.net/ps-news894/livestream.mp3","image":""}
+    ]
+},
+
+    "url_list_tw":{
+    "fmTitle":"台湾电台",
+    "data":[
+
+       
+        {"id": "254", "title": "新客家廣播電台", "url": "mms://bcr.media.hinet.net/RA000048","image":""},
+        {"id": "298", "title": "高屏溪客家廣播電台", "url": "mms://bcr.media.hinet.net/RADRM045","image":""},
+        {"id": "356", "title": "青春線上", "url": "mms://bcr.media.hinet.net/RA000079","image":""},
+        {"id": "162", "title": "中廣寶島網", "url": "mms://bcr.media.hinet.net/RA000005","image":""}
+    ]
+   },
+    
+    "url_list_monaco":{
+    "fmTitle":"monaco(摩罗哥)",
+    "data":[
+     
+     {"id": "monaco2", "title": "Mplus - Dance and Electro", "url": "http://mp3.live.tv-radio.com/mpluss/all/mpluss.mp3","image":""},
+     {"id": "monaco6", "title": "RMC Music Star Giorgia", "url": "http://shoutcast.unitedradio.it:1225","image":""}
+     ]
+    },
+    
+    "url_list_monaco":{
+       "fmTitle":"德国(germany)",
+        "data":[
+                
+                {"id": "germany1", "title": "Gay FM", "url": "http://sc1.streamfox.com:8010","image":""},
+                {"id": "germany2", "title": "Funsider Radio", "url": "mms://live.fm993.com.cn/musicfm","image":""}
+       ]
+    },
+    "url_list_Amaric":{
+        "fmTitle":"美国",
+        "data":[
+                
+                {"id": "Amaric1", "title": "VOA Voice of America News", "url": "http://voa-28.akacast.akamaistream.net/7/54/322040/v1/ibb.akacast.akamaistream.net/voa-28","image":""},
+                {"id": "Amaric2", "title": "VOA1 The Hits", "url": "http://voa-22.akacast.akamaistream.net/7/48/322034/v1/ibb.akacast.akamaistream.net/voa-22","image":""}
+               ]
+    }
+}
